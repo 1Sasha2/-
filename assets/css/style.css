@@ -1,0 +1,262 @@
+body{
+    background: #E2EDC2;
+    font-family: Ubuntu Condensed;
+    margin: 0 auto;
+    
+    }
+    *,
+    *:before,
+    *:after{
+    box-sizing: border-box;
+    }
+    .container_1 {
+    position: relative;
+    width: 100%;
+    }
+
+    .navigation{
+        margin-top: -70%;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 5%;
+        margin-left: 7%;
+    }
+    .main_info{
+        margin-right: 7%;
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+    .txt_1{
+        height: 450px;
+        justify-content: center;
+        color: white;
+        display:flex;
+        flex-flow: column wrap;
+        text-align: center;
+        margin:0 auto;
+    }
+    .big_txt{  
+        font-family: 'Ubuntu'bold;
+        font-size: 70px;
+    }
+    .small_txt{
+        margin-top: -70px;
+        font-family: 'Ubuntu'bold;
+        font-size: 30px;
+    }
+    .conteiner_2{
+        margin-top: 35%;
+    }
+    .header{
+        text-align: center;
+        font-family: 'Ubuntu'bold;
+        font-size: 50px;
+        color: #7287ae;
+        margin-top: 21%;
+    }
+    .images{
+        display: inline-block;
+        justify-content: space-between;
+        margin-top: 15%;
+    }
+    .TXT1{
+        margin-top: -200px;
+        color: #000;
+        font-size: 20px;
+    }
+    .TXT2{
+        margin-top: -200px;
+        color: #000;
+        font-size: 20px;
+    }
+    .TXT3{
+        margin-top: -200px;
+        color: #000;
+        font-size: 20px;
+    }
+    .btninner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 129px;
+    }
+    .btm1{
+        display: flex;
+        justify-content: center;
+        width: 340px;
+        height: 75px;
+        background-color: #7287ae;
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        align-items: center;
+        box-sizing: border-box;
+        border-radius: 50px;
+        letter-spacing: 0.21em;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 38px;
+        position: relative;
+    }
+    .btm1:before {
+        content:'';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 75px;
+        background: rgba(255,255,255,0.3);
+        border-radius: 50px;
+        transition: all 2s ease;
+    }
+    .btm1:hover:before {
+        width: 100%;
+    }
+    
+    .conteiner_3{
+        max-height: 1600px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        background-color: white;
+        margin-top: 30px;
+    }
+    .block1{
+          width: 100%;  
+        margin: auto;;
+        display:flex;
+        }
+    .white_fon1{
+       max-height: 700px;
+        background-color: white;
+    }
+    .text{
+
+        color: #333333;
+        font-family: 'Ubuntu'bold;
+        font-size: 100px;
+        margin-top: 50px;
+        margin-left: 38px;
+        line-height: 1;
+        }
+    .subtext{
+        color: #333333;
+        font-family: 'Ubuntu'bold;
+        font-size: 35px;
+        margin-top: 25px;
+        margin-left: 40px;
+        max-width: 600px;
+        line-height: 1;
+        }
+    .btm2{
+            display: flex;
+            justify-content: center;
+            width: 340px;
+            height: 75px;
+            background-color: #7287ae;
+            text-decoration: none;
+            font-family: 'Lato', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-align: center;
+            color: white;
+            align-items: center;
+            box-sizing: border-box;
+            border-radius: 50px;
+            letter-spacing: 0.21em;
+            font-size: 20px;
+            margin-top: 40px;
+            margin-left: 38px;
+            position: relative;
+        }
+    .btm2:before {
+            content:'';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 75px;
+            background: rgba(255,255,255,0.3);
+            border-radius: 50px;
+            transition: all 2s ease;
+        }
+    .btm2:hover:before {
+            width: 100%;
+        }
+    .block2{
+        width: 100%;    
+        margin: auto;;
+        display: flex;
+        }
+        .tarelki2{
+            width: 50%;
+            display: flex;
+        }
+    .text2{
+            color: #333333;
+            font-family: 'Ubuntu'bold;
+            font-size: 75px;
+            margin-top: -1350px;
+            margin-left: 95px;
+            max-width: 450px;
+            line-height: 1;
+            }
+    .subtext2{
+            margin-left: 100px;
+            color: #333333;
+            font-family: 'Ubuntu'bold;
+            font-size: 35px;
+            max-width: 600px;
+            line-height: 1;
+            }
+
+    .white_fon2{
+        flex: 1;
+           margin-top: 1525px;
+            margin-left: -1520px;
+            width: 50%;
+    }       
+    .btm3{
+        display: flex;
+        justify-content: center;
+        width: 340px;
+        height: 75px;
+        background-color: #7287ae;
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        align-items: center;
+        box-sizing: border-box;
+        border-radius: 50px;
+        letter-spacing: 0.21em;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 118px;
+        position: relative;
+    } 
+    .btm3:before {
+        content:'';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 75px;
+        background: rgba(255,255,255,0.3);
+        border-radius: 5px;
+        transition: all 2s ease;
+    }
+    .btm3:hover:before {
+        width: 100%;
+    }
